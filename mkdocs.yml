@@ -46,7 +46,9 @@ nav:
   - English_Writing: []
   - Math_Notes: []
   - Politics_Notes: []
-- 03_Errors:
+- 03_kaggle: []
+- 04_project: []
+- 05_Errors:
   - CS_Errors: []
   - Math_Errors: []
 - index: index.md
