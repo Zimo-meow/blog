@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block content %}
+{{ super() }}
+
+<!-- Giscus 评论区 -->
+<hr style="margin-top:2rem;opacity:.2;">
+<div id="giscus_thread"></div>
+<script src="https://giscus.app/client.js" data-repo="Zimo-meow/Zimo-meow.github.io" data-repo-id="__REPO_ID__"
+    data-category="Comments" data-category-id="__CATEGORY_ID__" data-mapping="pathname" data-strict="1"
+    data-reactions-enabled="1" data-emit-metadata="0" data-input-position="bottom" data-theme="preferred_color_scheme"
+    data-lang="zh-CN" crossorigin="anonymous" async>
+    </script>
+
+<!-- 仅首页显示访问量 -->
+{% if page and page.is_home %}
+<div id="site-counter" style="text-align:center;margin-top:20px;font-size:.9rem;color:gray;">
+    总访问量 <span id="busuanzi_value_site_pv">0</span> 次
+</div>
+<script defer src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+{% endif %}
+{% endblock %}

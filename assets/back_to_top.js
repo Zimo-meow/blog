@@ -1,14 +1,1 @@
-document.addEventListener("DOMContentLoaded", function () {
-    const btn = document.createElement('button');
-    btn.id = 'back2top';
-    btn.innerText = '↑';
-    document.body.appendChild(btn);
-
-    window.addEventListener('scroll', () => {
-        btn.style.display = window.scrollY > 600 ? 'block' : 'none';
-    });
-
-    btn.addEventListener('click', () => {
-        window.scrollTo({ top: 0, behavior: 'smooth' });
-    });
-});
+document.addEventListener("DOMContentLoaded",function(){const b=document.createElement("button");b.id="back2top";b.innerText="↑";document.body.appendChild(b);window.addEventListener("scroll",()=>{b.style.display=window.scrollY>600?"block":"none"});b.addEventListener("click",()=>{window.scrollTo({top:0,behavior:"smooth"})})});
