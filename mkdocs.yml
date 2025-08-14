@@ -1,0 +1,52 @@
+site_name: My Study Blog
+theme:
+  name: material
+  language: zh
+nav:
+- 01_IELTS:
+  - Reading:
+    - Ancient_Money_写作口语表达提炼: 01_IELTS/Reading/Ancient_Money_写作口语表达提炼.md
+    - Ancient_Money_精读笔记: 01_IELTS/Reading/Ancient_Money_精读笔记.md
+    - Soviet’s New Working Week - Reading Analysis: 01_IELTS/Reading/Soviet’s New
+        Working Week - Reading Analysis.md
+    - Soviet’s New Working Week - Writing Cards: 01_IELTS/Reading/Soviet’s New Working
+        Week - Writing Cards.md
+    - Talc-Powder-reading-analysis-COMPLETE: 01_IELTS/Reading/Talc-Powder-reading-analysis-COMPLETE.md
+    - Talc-Powder-writing-cards: 01_IELTS/Reading/Talc-Powder-writing-cards.md
+    - graffiti_reading_analysis: 01_IELTS/Reading/graffiti_reading_analysis.md
+    - graffiti_writing_cards: 01_IELTS/Reading/graffiti_writing_cards.md
+  - Sentence:
+    - 2025_08_11_sentence_cards:
+      - sentence_1: 01_IELTS/Sentence/2025_08_11_sentence_cards/sentence_1.md
+      - sentence_10: 01_IELTS/Sentence/2025_08_11_sentence_cards/sentence_10.md
+      - sentence_11: 01_IELTS/Sentence/2025_08_11_sentence_cards/sentence_11.md
+      - sentence_2: 01_IELTS/Sentence/2025_08_11_sentence_cards/sentence_2.md
+      - sentence_3: 01_IELTS/Sentence/2025_08_11_sentence_cards/sentence_3.md
+      - sentence_4: 01_IELTS/Sentence/2025_08_11_sentence_cards/sentence_4.md
+      - sentence_5: 01_IELTS/Sentence/2025_08_11_sentence_cards/sentence_5.md
+      - sentence_6: 01_IELTS/Sentence/2025_08_11_sentence_cards/sentence_6.md
+      - sentence_7: 01_IELTS/Sentence/2025_08_11_sentence_cards/sentence_7.md
+      - sentence_8: 01_IELTS/Sentence/2025_08_11_sentence_cards/sentence_8.md
+      - sentence_9: 01_IELTS/Sentence/2025_08_11_sentence_cards/sentence_9.md
+  - Speaking_Cards: []
+  - Vocab:
+    - AncientMoney_Vocab: 01_IELTS/Vocab/AncientMoney_Vocab.md
+    - Graffiti_Street_Art_or_Crime_Vocab: 01_IELTS/Vocab/Graffiti_Street_Art_or_Crime_Vocab.md
+  - Vocab_Masterlist: 01_IELTS/Vocab_Masterlist.md
+  - Writing_Cards:
+    - Writing Cards - 2025-08-07: 01_IELTS/Writing_Cards/Writing Cards - 2025-08-07.md
+    - Writing Cards - 2025-08-11: 01_IELTS/Writing_Cards/Writing Cards - 2025-08-11.md
+    - economic_progress_writing_cards: 01_IELTS/Writing_Cards/economic_progress_writing_cards.md
+  - Writing_Samples:
+    - Writing Review - 2025-08-07: 01_IELTS/Writing_Samples/Writing Review - 2025-08-07.md
+    - Writing Review - 2025-08-10: 01_IELTS/Writing_Samples/Writing Review - 2025-08-10.md
+    - Writing Review - 2025-08-11: 01_IELTS/Writing_Samples/Writing Review - 2025-08-11.md
+- 02_PostgraduateExam:
+  - CS408_Notes: []
+  - English_Writing: []
+  - Math_Notes: []
+  - Politics_Notes: []
+- 03_Errors:
+  - CS_Errors: []
+  - Math_Errors: []
+- index: index.md
